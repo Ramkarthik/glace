@@ -1,0 +1,17 @@
+name = "glace"
+version = "0.1.0"
+description = "An easy to use, high performance framework to quickly build APIs for the Gleam programming language"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "ramkarthik", repo = "glace" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+mist = ">= 4.0.4 and < 5.0.0"
+gleam_erlang = ">= 0.33.0 and < 1.0.0"
+gleam_http = ">= 3.7.2 and < 4.0.0"
+gleam_otp = ">= 0.16.0 and < 1.0.0"
+pathern = ">= 0.0.1 and < 1.0.0"
+logging = ">= 1.3.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
