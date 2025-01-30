@@ -33,3 +33,18 @@ pub fn main() {
   
 }
 ```
+
+### Benchmarks
+
+```console
+$ bombardier -d 10s --fasthttp http://localhost:4000/
+
+Statistics        Avg      Stdev        Max
+  Reqs/sec    121995.56    9004.83  145036.35
+  Latency        1.02ms   235.46us    23.58ms
+  HTTP codes:
+    1xx - 0, 2xx - 1220605, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    23.40MB/s
+```
+
