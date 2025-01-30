@@ -3,6 +3,8 @@
 [![Package Version](https://img.shields.io/hexpm/v/glace)](https://hex.pm/packages/glace)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/glace/)
 
+**Note: This is still early in the project and not ready for production use**
+
 A framework to build APIs quickly that focuses primarily on:
 1. Ease of use
 2. Fast to code
