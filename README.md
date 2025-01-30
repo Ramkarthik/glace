@@ -1,11 +1,20 @@
 # glace
 
-A framework to build API quickly that focuses primarily on:
+[![Package Version](https://img.shields.io/hexpm/v/glace)](https://hex.pm/packages/glace)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/glace/)
+
+A framework to build APIs quickly that focuses primarily on:
 1. Ease of use
 2. Fast to code
 3. Performance
 
-...in that order but it's still pretty fast, like really, really fast.
+... in that order but it's still pretty fast, like really, really fast.
+
+### Installing
+
+`gleam add glace`
+
+### Usage
 
 ```gleam
 import glace
